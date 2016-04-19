@@ -1,8 +1,9 @@
 # Site settings
-title: Tales from Camp Crystal Lake
+title: Camp Crystal Lake Chronicles
 description: 'Ramblings on Hacking Code'
-url: 'http://github.com/marksmall'
-baseurl: ''
+url: 'http://marksmall.github.io'
+baseurl: '/'
+future: true
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
