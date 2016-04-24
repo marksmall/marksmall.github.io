@@ -25,8 +25,8 @@ mean? Well, normally I do a bit of googling, open 10 pages on the topic, I'm luc
 antsy and want to start using it. As usual this is exactly what happened. I ignored the generation of a new project
 in favour of looking for a seed project.
 
->> **NOTE:** Once you've gone through some docs, I advise using a seed project, these have generally fixed many of
->> of the initial project startup issues you come across.
+> **NOTE:** Once you've gone through some docs, I advise using a seed project, these have generally fixed many of
+> of the initial project startup issues you come across.
 
 Most docs take ages to explain a few fundamental concepts and I get bored easily, so I end up skipping most of them
 and learn by trial and error. Don't get me wrong, I do go back to the docs and blogs, but only when I've got a
@@ -54,9 +54,9 @@ After cloning the repo I quickly realised installing gems manually as root was n
 notice the *Gemfile*. Using this file as an input to [Bundler](http://bundler.io/), makes installing
 all necessary dependencies really easy, all you need to do is `bundle install`.
 
->> **NOTE:** My advice, all such projects should use a Gemfile, it, just makes life easier for those using your project.
->> I also advise installing everything locally, to prevent clashes between projects. Some gems may need to be installed
->> as root, you can get round that by using `bundle install --path vendor/bundle`.
+> **NOTE:** My advice, all such projects should use a Gemfile, it, just makes life easier for those using your project.
+> I also advise installing everything locally, to prevent clashes between projects. Some gems may need to be installed
+> as root, you can get round that by using `bundle install --path vendor/bundle`.
 
 I got errors as I had removed the previously installed GEMs:
 ```
@@ -102,8 +102,8 @@ Configuration file: /home/msmall/dev/projects/testbench/marksmall.github.io/_con
 I fixed this/got round it, not sure which yet, by using `bundle exec jekyll serve`. This is because I installed all
 dependencies using **bundler**, this executes the command `jekyll serve` making all gems within the *Gemfile* available.
 
- >> **NOTE:** To simplify life I made a small script to install all dependencies and run the development server. This
- >> I'm sure will also be of benefit to those learning Jekyll, just like I am.
+> **NOTE:** To simplify life I made a small script to install all dependencies and run the development server. This
+> I'm sure will also be of benefit to those learning Jekyll, just like I am.
 
 ```
 #!/bin/bash
@@ -133,9 +133,9 @@ esac
 And that's it as they say, not exactly earth-shattering by any means but hopefully it saves you from some of the
 problems I encountered. Now it is all about generating content.
 
->> **UPDATE:** I tried creating a new post using todays date, yet it would never show as a post during development.
->> After a bit of googling I found out I had to add `future: true` to the *_config.yml* config file for Jekyll. The
->> other option is to ensure the date in the filename is in the past.
+> **UPDATE:** I tried creating a new post using todays date, yet it would never show as a post during development.
+> After a bit of googling I found out I had to add `future: true` to the *_config.yml* config file for Jekyll. The
+> other option is to ensure the date in the filename is in the past.
 
 You are welcome to use this repo as a starting point for your own project, get the source from my
 [GitHub Repo](https://github.com/marksmall/marksmall.github.io.git)
