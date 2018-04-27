@@ -2,7 +2,6 @@
 title: Crystal Lake Chronicles
 description: 'Ramblings on Hacking Code'
 url: 'http://marksmall.github.io'
-baseurl: '/'
 future: true
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
