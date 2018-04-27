@@ -12,8 +12,11 @@ comments: true
 * [Git Flow](#git-flow)
 * [GitHub Flow](#github-flow)
 * [Workflow for Continuous Delivery](#workflow-for-continuous-delivery)
+* [GitLab Flow](#gitlab-flow)
 * [Thoughts](#thoughts)
 * [A Flow that works for me](#A-flow-that-works-for-me)
+* [Automation](#automation)
+* [Summary](#summary)
 
 ## Overview
 
