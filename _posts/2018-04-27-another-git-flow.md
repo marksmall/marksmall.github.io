@@ -78,7 +78,7 @@ Your **release** steps are likely to differ also, but they will likely follow a 
 
 I cannot stress automation enough, automate whatever you can, the time spent developing your automation is dwarfed by the time saved and the happiness of developers, freed from mundane tasks.
 
-I detailed the automation of our webapps in a [previous blog](http://marksmall.github.io/2016/automated-build-deploy-webapps/)
+I detailed the automation of our webapps in a [previous blog](http://marksmall.github.io/2016/automated-build-deploy-webapp/)
 
 ## Summary
 
